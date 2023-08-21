@@ -1,0 +1,161 @@
+body{
+    background-color: #001233;
+    margin: 0 10%;
+    font-family: Roboto, sans-serif;
+
+}
+
+header{
+    z-index: 99;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #001233;
+    margin: 0 10%;
+}
+
+h1{
+    color: #ff595a;
+}
+
+a{
+    color: #edd7b0;
+    font-weight: bold;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.bouttons-header{
+    position: absolute;
+    top: 30px;
+    right: 15vw;
+}
+
+.acceuil{
+    height: 90vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.photo-profil{
+    height: 80%;
+    border-radius: 20px;
+}
+
+.texte-acceuil{
+    height: 400px;
+    width: 50vw;
+    color: #edd7b0;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+em{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.telecharger-cv{
+    background-color: #ff595a;
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #001233;
+    position: absolute;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+.competences{
+    height: 90vh;
+}
+
+.projets{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projet {
+    height: 15vw;
+    width: 20vw;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.70);
+    cursor: pointer;
+}
+
+.p1{
+    background-image: url("CSS/hangman-web.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.p2{
+    background-image: url("CSS/groupie-tracker.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.p3{
+    background-image: url("CSS/img-projet-web.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.p4{
+    background-image: url("CSS/boutique.png");
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    color: #edd7b0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.texte-projet{
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    opacity: 0;
+    transition: all 0.5s ease;
+
+}
+
+.projet:hover{
+    background-blend-mode: darken;
+}
+
+.projet:hover .texte-projet{
+    opacity: 1;
+    background-blend-mode: darken;
+}
+
+.competences{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icone-competence{
+    height: 200px;
+    margin: 40px;
+}
+
